@@ -13,3 +13,12 @@ A simple possibility of a multi-parameter lambda is:
 'a' and 'b' are parameters in the above example, and a + b is an expression.  
 
 Although the use of lambdas may be unnecessary for simple operations, they are especially powerful when it comes to more complicated tasks (e.g., data transformation, event handling, sorting, filtering, concurrency, collections tasks).
+
+**3 Reasons to Use Lambdas:**
+* Functional Programming Support
+  + Use of higher-order functions (e.g., filter(), map()) and other functional programming patterns make code modular and maintainable.
+* Highly Readable
+  + Use of shortened, succinct parameter and expression syntax to provide abstraction for redundant operations.
+    - Likewise: no need for anonymous classes.
+* Parallel Processing
+  + Lambda expressions (in tandem with Stream API) allow collections to be parallel processed, potentially increasing performance.
