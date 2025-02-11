@@ -22,3 +22,5 @@ Although the use of lambdas may be unnecessary for simple operations, they are e
     - Likewise: no need for anonymous classes.
 * Parallel Processing
   + Lambda expressions (in tandem with Stream API) allow collections to be parallel processed, potentially increasing performance.
+  
+TODO: Add numbered sections and Table of Contents.
