@@ -6,6 +6,7 @@
   
 1. [Java Lambda Syntax](#lambda-syntax)
 2. [Three Reasons to Use Lambdas](#lambda-reasons)
+3. [Supplemental Resources](#supplemental)
   
 ## 1. <a name="lambda-syntax">Java Lambda Syntax</a>
   
@@ -21,6 +22,8 @@ A simple demonstration of a multi-parameter lambda:
 
 Although the use of lambdas may be unnecessary for simple operations, they are especially powerful when it comes to more complicated tasks (e.g., data transformation, event handling, sorting, filtering, concurrency, collections tasks).
   
+<hr />
+  
 ## 2. <a name="lambda-reasons">Three Reasons to Use Lambdas</a>
   
 * **Functional Programming Support**
@@ -30,3 +33,10 @@ Although the use of lambdas may be unnecessary for simple operations, they are e
     - Likewise: no need for anonymous classes.
 * **Parallel Processing**
   + Lambda expressions (in tandem with Stream API) allow collections to be parallel processed, potentially increasing performance.
+  
+<hr />
+
+## 3. <a name="supplemental">Supplemental Resources</a>
+  
+* [Java Data Structure Leetcode Interview Questions](https://github.com/chaseofthejungle/java-data-structure-leetcode-interview-questions)  
+* [Java Quick Reference Guide](https://github.com/chaseofthejungle/java-quick-reference-guide)
