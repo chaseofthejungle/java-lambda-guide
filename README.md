@@ -38,5 +38,6 @@ Although the use of lambdas may be unnecessary for simple operations, they are e
 
 ## 3. <a name="supplemental">Supplemental Resources</a>
   
-* [Java Data Structure Leetcode Interview Questions](https://github.com/chaseofthejungle/java-data-structure-leetcode-interview-questions)  
-* [Java Quick Reference Guide](https://github.com/chaseofthejungle/java-quick-reference-guide)
+* *[Java Data Structure Leetcode Interview Questions](https://github.com/chaseofthejungle/java-data-structure-leetcode-interview-questions)*
+* *[Java Quick Reference Guide](https://github.com/chaseofthejungle/java-quick-reference-guide)*
+* *[Official Amazon Documentation on AWS's Lambdas](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)*
