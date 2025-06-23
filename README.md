@@ -6,6 +6,7 @@
   
 1. [Java Lambda Syntax](#lambda-syntax)
 2. [Three Reasons to Use Lambdas](#lambda-reasons)
+3. [Code Example](#code-example)
 3. [Supplemental Resources](#supplemental)
   
 ## 1. <a name="lambda-syntax">Java Lambda Syntax</a>
@@ -36,7 +37,13 @@ Although the use of lambdas may be unnecessary for simple operations, they are e
   
 <hr />
 
-## 3. <a name="supplemental">Supplemental Resources</a>
+## 3. <a name="code-example">Code Example</a>
+  
+(TODO)
+  
+<hr />
+  
+## 4. <a name="supplemental">Supplemental Resources</a>
   
 * *[Java Data Structure Leetcode Interview Questions](https://github.com/chaseofthejungle/java-data-structure-leetcode-interview-questions)*
 * *[Java Quick Reference Guide](https://github.com/chaseofthejungle/java-quick-reference-guide)*
