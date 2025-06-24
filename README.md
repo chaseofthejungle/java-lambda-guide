@@ -88,3 +88,7 @@ System.out.println(fruit);
 * *[Java Data Structure Leetcode Interview Questions](https://github.com/chaseofthejungle/java-data-structure-leetcode-interview-questions)*
 * *[Java Quick Reference Guide](https://github.com/chaseofthejungle/java-quick-reference-guide)*
 * *[Official Amazon Documentation on AWS's Lambdas](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)*
+  
+<hr />
+  
+**TODO:** Add two sections: one on filtering, mapping, and reducing, and another on GUI event handling.
