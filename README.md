@@ -81,6 +81,27 @@ Collections.sort(fruit, (a, b) -> a.compareTo(b)); // sorting via lambda
 System.out.println(fruit);
 ```
   
+**Handling a GUI Button Click Event:**
+  
+The following JavaFX code can be simplified...
+
+```
+Button button = new Button("Submit Form");
+button.setOnAction(new EventHandler <ActionEvent>() {
+    @Override
+    public void handle(ActionEvent event) {
+        System.out.println("Thank you for your submission!");
+    }
+});
+```
+
+... using a lambda.
+
+```
+Button button = new Button("Submit Form");
+button.setOnAction(event -> System.out.println("Thank you for your submission!"));
+```
+  
 <hr />
   
 ## 4. <a name="supplemental">Supplemental Resources</a>
@@ -91,4 +112,4 @@ System.out.println(fruit);
   
 <hr />
   
-**TODO:** Add two sections: one on filtering, mapping, and reducing, and another on GUI event handling.
+**TODO:** Add a section on filtering, mapping, and reducing.
