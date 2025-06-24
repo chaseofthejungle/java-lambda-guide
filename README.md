@@ -6,7 +6,7 @@
   
 1. [Java Lambda Syntax](#lambda-syntax)
 2. [Three Reasons to Use Lambdas](#lambda-reasons)
-3. [Code Example](#code-example)
+3. [Code Examples](#code-examples)
 3. [Supplemental Resources](#supplemental)
   
 ## 1. <a name="lambda-syntax">Java Lambda Syntax</a>
@@ -37,9 +37,49 @@ Although the use of lambdas may be unnecessary for simple operations, they are e
   
 <hr />
 
-## 3. <a name="code-example">Code Example</a>
+## 3. <a name="code-examples">Code Examples</a>
   
-(TODO)
+**With a Runnable Interface Inner Class:**
+  
+```
+Runnable run1 = new Runnable() {
+    @Override
+    public void run() {
+        System.out.println("Task #1 is executing...");
+    }
+};
+
+// The actual lambda expression
+Runnable run2 = () -> {
+    System.out.println("Task #2 is executing...");
+};
+```
+  
+**Filtering Stream Results:**
+  
+```
+List<Integer> vals = Arrays.asList(0, 1, 2, 3, 4, 5, 6, 7);
+
+vals.stream()
+       .filter(n -> n % 2 == 1) // odd values only
+       .forEach(n -> System.out.println(n));
+```
+  
+**Sorting a List of Strings:**
+  
+```
+List<String> fruit = Arrays.asList("Banana", "Watermelon", "Lime", "Mango");
+
+Collections.sort(fruit, new Comparator<String>() {
+    @Override
+    public int compare(String a, String b) {
+        return a.compareTo(b);
+    }
+});
+
+Collections.sort(fruit, (a, b) -> a.compareTo(b)); // sorting via lambda
+System.out.println(fruit);
+```
   
 <hr />
   
