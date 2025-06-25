@@ -102,6 +102,37 @@ Button button = new Button("Submit Form");
 button.setOnAction(event -> System.out.println("Thank you for your submission!"));
 ```
   
+**Sorting Items by Price in an e-Commerce Shop:**
+  
+The following code can be simplified...
+  
+```
+List<Item> items = Arrays.asList(
+    new Item("CD", 1600),
+    new Item("Vinyl", 2200),
+    new Item("MP3", 1400)
+);
+
+Collections.sort(items, new Comparator<Item>() {
+    @Override
+    public int compare(Item item1, Item item2) {
+        return Integer.compare(item1.getPrice(), item2.getPrice());
+    }
+});
+```
+  
+... using a lambda.
+  
+```
+List<Item> items = Arrays.asList(
+    new Item("CD", 1600),
+    new Item("Vinyl", 2200),
+    new Item("MP3", 1400)
+);
+
+items.sort((item1, item2) -> Integer.compare(item1.getPrice(), item2.getPrice()));
+```
+  
 <hr />
   
 ## 4. <a name="supplemental">Supplemental Resources</a>
