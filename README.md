@@ -143,4 +143,4 @@ items.sort((item1, item2) -> Integer.compare(item1.getPrice(), item2.getPrice())
   
 <hr />
   
-**TODO:** Add a section on filtering, mapping, and reducing.
+**TODO:** Add a code example for filtering and mapping.
